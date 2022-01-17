@@ -18,18 +18,9 @@ const compare = (a, b) => {
 }
 
 export default function Index () {
-  const [text, setText] = React.useState('cell')
+  const [text, setText] = React.useState('')
   const recipes = useLoaderData()
-  const [selected, setSelected] = React.useState([
-    {
-      id: nanoid(),
-      ..._.find(recipes, { name: 'Terraspark Boots' })
-    },
-    {
-      id: nanoid(),
-      ..._.find(recipes, { name: 'Cell Phone' })
-    }
-  ])
+  const [selected, setSelected] = React.useState([])
   let matches = recipes.filter(recipe => compare(recipe.name, text))
   matches = _.map(_.groupBy(matches, 'name'), a => a[0])
   if (matches.length > 15) matches.length = 15
@@ -88,7 +79,7 @@ function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
         'border-2 border-emerald-400 inline-block p-4 align-top m-3 relative': remove
       })}
     >
-      <label className={clsx({ 'pr-10': remove })}>
+      <div className={clsx({ 'pr-10': remove })}>
         <span>
           <input
             type='checkbox'
@@ -96,7 +87,14 @@ function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
             checked={completed}
             onChange={e => setCompleted(e.target.checked)}
           />
-          <span>{item.name}</span>
+          <a
+            className='hover:text-blue-500 hover:underline'
+            href={`https://terraria.fandom.com/wiki/${item.name}`}
+            target='_blank'
+            rel='noreferrer noopener'
+          >
+            {item.name}
+          </a>
           {amount !== 1 && <span> ({amount})</span>}
           {item.workbench && <span> ({item.workbench.join('/')})</span>}
           {entries.length >= 2 && (
@@ -111,7 +109,7 @@ function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
             ×
           </button>
         )}
-      </label>
+      </div>
       {item.ingredients && (
         <ul className='pl-4'>
           {item.ingredients.map(ingredient => {

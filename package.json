@@ -8,7 +8,7 @@
     "build:css": "tailwindcss -o ./app/tailwind.css",
     "dev": "concurrently \"yarn dev:css\" \"remix dev\"",
     "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
-    "scrape": "node fetch-html && node parse-html",
+    "scrape": "node scraper/fetch-html && node scraper/parse-html",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },

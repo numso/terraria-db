@@ -1,59 +1,33 @@
 const cheerio = require('cheerio')
+const fs = require('fs/promises')
+const path = require('path')
 
-function isDesktopVersion ($, el) {
-  const consoles = $('td.result .eico', el).attr('title')
-  const consoles2 = $('td.result a:not(:first-child)', el)
-    .map((i, el) => $(el).attr('title'))
-    .toArray()
+const parse = require('./parse')
 
-  if (consoles && consoles2.length) {
-    throw new Error('Unexpected double console text')
-  }
+const RAW_DIR = path.join(__dirname, '..', 'raw')
+const DATA_DIR = path.join(__dirname, '..', 'data')
 
-  if (consoles) return consoles.includes('Desktop')
-  const a = $('a:not(:first-child)', el)
-    .map((i, el) => $(el).attr('title'))
-    .toArray()
-  if (!a.length) return true
-  return a.includes('Desktop version')
-}
+async function main () {
+  await fs.rm(DATA_DIR, { recursive: true, force: true })
+  await fs.mkdir(DATA_DIR)
+  const files = await fs.readdir(RAW_DIR)
 
-module.exports = html => {
-  const $ = cheerio.load(html, null, false)
-
-  const recipes = $('table.crafts')
-    .map((i, el) => {
-      const workbench = $('caption a', el)
-        .map((i, el) => $(el).text())
-        .toArray()
-        .filter(Boolean)
-
-      let prev = []
-
-      return $('tr[data-rowid]', el)
-        .map((i, el) => {
-          let item = $('td.result a:first-child', el).text()
-          let isDesktop = isDesktopVersion($, el)
-          if (!item) [item, isDesktop] = prev
-          else prev = [item, isDesktop]
-
-          if (!isDesktop) return null
-
-          const ingredients = $('td.ingredients li', el)
-            .map((i, el) => {
-              let amount = $('.note-text', el).text() || '(1)'
-              amount = +amount.substring(1, amount.length - 1)
-              return { item: $('a', el).text(), amount }
-            })
-            .toArray()
-            .filter(Boolean)
-
-          return { workbench, item, ingredients }
-        })
-        .toArray()
-        .filter(Boolean)
+  const promises = files
+    .map(file => {
+      if (file.startsWith('_') || !file.endsWith('.html')) return
+      return fs.readFile(path.join(RAW_DIR, file), 'utf-8')
     })
-    .toArray()
+    .filter(Boolean)
 
-  return recipes
+  const htmls = await Promise.all(promises)
+  const data = htmls.flatMap(parse)
+
+  await fs.writeFile(
+    path.join(DATA_DIR, 'recipes.json'),
+    JSON.stringify(data, null, 2)
+  )
 }
+
+main()
+  .then(() => console.log('Success!!'))
+  .catch(console.error)

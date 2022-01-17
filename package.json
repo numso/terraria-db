@@ -8,13 +8,16 @@
     "build:css": "tailwindcss -o ./app/tailwind.css",
     "dev": "concurrently \"yarn dev:css\" \"remix dev\"",
     "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
-    "scrape": "node fetch-html && node parse-html",
+    "scrape": "node scraper/fetch-html && node scraper/parse-html",
     "postinstall": "remix setup node",
     "start": "remix-serve build"
   },
   "dependencies": {
     "@remix-run/react": "^1.1.1",
     "@remix-run/serve": "^1.1.1",
+    "clsx": "^1.1.1",
+    "lodash": "^4.17.21",
+    "nanoid": "^3.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "remix": "^1.1.1"

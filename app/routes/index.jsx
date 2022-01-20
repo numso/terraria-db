@@ -5,8 +5,8 @@ import { useLoaderData } from 'remix'
 
 import recipes from '../../data/recipes.json'
 
-export const loader = () => {
-  return recipes
+export const loader = ({ request }) => {
+  return { recipes, url: request.url }
 }
 
 const compare = (a, b) => {
@@ -17,10 +17,36 @@ const compare = (a, b) => {
   )
 }
 
+function useStorageState (key, defaultValue) {
+  const [value, setValue] = React.useState(() => {
+    try {
+      const raw = localStorage.getItem(key)
+      if (raw === null) throw new Error()
+      return JSON.parse(raw)
+    } catch {
+      return defaultValue
+    }
+  })
+  React.useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value))
+  }, [value])
+  return [value, setValue]
+}
+
 export default function Index () {
   const [text, setText] = React.useState('')
-  const recipes = useLoaderData()
-  const [selected, setSelected] = React.useState([])
+  const { recipes, url } = useLoaderData()
+  const [selected, setSelected] = useStorageState('terraria-state', [])
+  // const [selected, setSelected] = React.useState(() => {
+  //   const url2 = new URL(url || window.location.href)
+  //   const raw = url2.searchParams.get('state')
+  //   return deserialize(allOfThatData)
+  // })
+  // React.useEffect(() => {
+  //   const allOfThatData = somehowGetIt()
+  //   const data = serialize(allOfThatData)
+  //   window.history.replaceState(null, null, `?state=${data}`)
+  // }, [selected])
   let matches = recipes.filter(recipe => compare(recipe.name, text))
   matches = _.map(_.groupBy(matches, 'name'), a => a[0])
   if (matches.length > 15) matches.length = 15
@@ -56,6 +82,7 @@ export default function Index () {
         {selected.map(item => (
           <Item
             key={item.id}
+            id={item.id}
             recipes={recipes}
             item={item}
             amount={1}
@@ -68,10 +95,19 @@ export default function Index () {
   )
 }
 
-function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
-  const [selfCompleted, setCompleted] = React.useState(false)
-  const completed = selfCompleted || parentCompleted
+function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
+  const [selfCompleted, setCompleted] = useStorageState(
+    `${id}-${item.name}-completed`,
+    false
+  )
+  const [entryIndex, setEntryIndex] = useStorageState(
+    `${id}-${item.name}-entry`,
+    0
+  )
+  const [showingModal, setShowingModal] = React.useState(false)
+  const completed = selfCompleted || parentCompleted || false
   const entries = _.filter(recipes, { name: item.name })
+  const { workbench, ingredients } = entries[entryIndex] || {}
   return (
     <li
       className={clsx('list-disc', {
@@ -96,9 +132,40 @@ function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
             {item.name}
           </a>
           {amount !== 1 && <span> ({amount})</span>}
-          {item.workbench && <span> ({item.workbench.join('/')})</span>}
+          {workbench && <span> ({workbench.join('/')})</span>}
           {entries.length >= 2 && (
-            <button className='text-blue-500 text-sm ml-2'>change</button>
+            <div className='inline'>
+              <button
+                className='text-blue-500 text-sm ml-2'
+                onClick={() => setShowingModal(a => !a)}
+              >
+                change
+              </button>
+              {showingModal && (
+                <ul className='flex p-2 shadow-md border border-gray-200 absolute bg-white text-black'>
+                  {entries.map((entry, i) => (
+                    <li className='ml-2 first:ml-0'>
+                      <button
+                        className='border-2 border-emerald-400 p-2 hover:bg-emerald-50 text-left whitespace-nowrap'
+                        onClick={() => {
+                          setEntryIndex(i)
+                          setShowingModal(false)
+                        }}
+                      >
+                        <div className='font-bold text-sm underline'>
+                          {entry.workbench.join('/')}
+                        </div>
+                        <ul>
+                          {entry.ingredients.map(ingredient => (
+                            <li className='text-sm'>{ingredient.name}</li>
+                          ))}
+                        </ul>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           )}
         </span>
         {remove && (
@@ -110,15 +177,16 @@ function Item ({ item, amount, remove, recipes, seen, parentCompleted }) {
           </button>
         )}
       </div>
-      {item.ingredients && (
+      {ingredients && (
         <ul className='pl-4'>
-          {item.ingredients.map(ingredient => {
+          {ingredients.map(ingredient => {
             if (ingredient.name.includes(' Wall')) return null
             if (seen.includes(ingredient.name)) return null
             let thing = _.find(recipes, { name: ingredient.name })
             if (!thing) thing = { name: ingredient.name }
             return (
               <Item
+                id={id}
                 key={thing.name}
                 item={thing}
                 amount={ingredient.amount}

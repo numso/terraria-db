@@ -17,36 +17,40 @@ const compare = (a, b) => {
   )
 }
 
-function useStorageState (key, defaultValue) {
-  const [value, setValue] = React.useState(() => {
-    try {
-      const raw = localStorage.getItem(key)
-      if (raw === null) throw new Error()
-      return JSON.parse(raw)
-    } catch {
-      return defaultValue
-    }
-  })
-  React.useEffect(() => {
-    localStorage.setItem(key, JSON.stringify(value))
-  }, [value])
-  return [value, setValue]
-}
+// function useStorageState (key, defaultValue) {
+//   const [value, setValue] = React.useState(() => {
+//     try {
+//       const raw = localStorage.getItem(key)
+//       if (raw === null) throw new Error()
+//       return JSON.parse(raw)
+//     } catch {
+//       return defaultValue
+//     }
+//   })
+//   React.useEffect(() => {
+//     localStorage.setItem(key, JSON.stringify(value))
+//   }, [value])
+//   return [value, setValue]
+// }
 
 export default function Index () {
   const [text, setText] = React.useState('')
   const { recipes, url } = useLoaderData()
-  const [selected, setSelected] = useStorageState('terraria-state', [])
-  // const [selected, setSelected] = React.useState(() => {
-  //   const url2 = new URL(url || window.location.href)
-  //   const raw = url2.searchParams.get('state')
-  //   return deserialize(allOfThatData)
-  // })
-  // React.useEffect(() => {
-  //   const allOfThatData = somehowGetIt()
-  //   const data = serialize(allOfThatData)
-  //   window.history.replaceState(null, null, `?state=${data}`)
-  // }, [selected])
+  const [selected, setSelected] = React.useState(() => {
+    try {
+      const url2 = new URL(url || window.location.href)
+      const raw = url2.searchParams.get('state')
+      return JSON.parse(atob(decodeURIComponent(raw)))
+    } catch {
+      return []
+    }
+  })
+  React.useEffect(() => {
+    const str = JSON.stringify(selected)
+    const encoded = btoa(str)
+    const safe = encodeURIComponent(encoded)
+    window.history.replaceState(null, null, `?state=${safe}`)
+  }, [selected])
   let matches = recipes.filter(recipe => compare(recipe.name, text))
   matches = _.map(_.groupBy(matches, 'name'), a => a[0])
   if (matches.length > 15) matches.length = 15
@@ -68,7 +72,15 @@ export default function Index () {
                 key={match.name}
                 className='px-4 py-2 hover:bg-slate-100 cursor-pointer'
                 onClick={() => {
-                  setSelected(a => [...a, { ...match, id: nanoid() }])
+                  setSelected(a => [
+                    ...a,
+                    {
+                      id: nanoid(),
+                      name: match.name,
+                      completed: {},
+                      variants: {}
+                    }
+                  ])
                   setText('')
                 }}
               >
@@ -79,14 +91,29 @@ export default function Index () {
         )}
       </div>
       <ul className='pl-8'>
-        {selected.map(item => (
+        {selected.map((item, i) => (
           <Item
             key={item.id}
-            id={item.id}
+            name={item.name}
+            amount={1}
+            path={[]}
             recipes={recipes}
             item={item}
-            amount={1}
             remove={() => setSelected(a => _.reject(a, { id: item.id }))}
+            setCompleted={(path, completed) => {
+              setSelected(selected => {
+                const newSelected = _.cloneDeep(selected)
+                newSelected[i].completed[path] = completed
+                return newSelected
+              })
+            }}
+            setVariant={(path, variant) => {
+              setSelected(selected => {
+                const newSelected = _.cloneDeep(selected)
+                newSelected[i].variants[path] = variant
+                return newSelected
+              })
+            }}
             seen={[]}
           />
         ))}
@@ -95,18 +122,25 @@ export default function Index () {
   )
 }
 
-function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
-  const [selfCompleted, setCompleted] = useStorageState(
-    `${id}-${item.name}-completed`,
-    false
-  )
-  const [entryIndex, setEntryIndex] = useStorageState(
-    `${id}-${item.name}-entry`,
-    0
-  )
+function Item ({
+  name,
+  path,
+  item,
+  amount,
+  remove,
+  recipes,
+  seen,
+  setCompleted,
+  setVariant,
+  parentCompleted
+}) {
+  const myPath = path.join('.')
+  const selfCompleted = item.completed[myPath] || false
+  const entryIndex = item.variants[myPath] || 0
+
   const [showingModal, setShowingModal] = React.useState(false)
   const completed = selfCompleted || parentCompleted || false
-  const entries = _.filter(recipes, { name: item.name })
+  const entries = _.filter(recipes, { name })
   const { workbench, ingredients } = entries[entryIndex] || {}
   return (
     <li
@@ -121,15 +155,15 @@ function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
             type='checkbox'
             className='mr-1'
             checked={completed}
-            onChange={e => setCompleted(e.target.checked)}
+            onChange={e => setCompleted(myPath, e.target.checked)}
           />
           <a
             className='hover:text-blue-500 hover:underline'
-            href={`https://terraria.fandom.com/wiki/${item.name}`}
+            href={`https://terraria.fandom.com/wiki/${name}`}
             target='_blank'
             rel='noreferrer noopener'
           >
-            {item.name}
+            {name}
           </a>
           {amount !== 1 && <span> ({amount})</span>}
           {workbench && <span> ({workbench.join('/')})</span>}
@@ -144,11 +178,11 @@ function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
               {showingModal && (
                 <ul className='flex p-2 shadow-md border border-gray-200 absolute bg-white text-black'>
                   {entries.map((entry, i) => (
-                    <li className='ml-2 first:ml-0'>
+                    <li key={i} className='ml-2 first:ml-0'>
                       <button
                         className='border-2 border-emerald-400 p-2 hover:bg-emerald-50 text-left whitespace-nowrap'
                         onClick={() => {
-                          setEntryIndex(i)
+                          setVariant(myPath, i)
                           setShowingModal(false)
                         }}
                       >
@@ -157,7 +191,9 @@ function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
                         </div>
                         <ul>
                           {entry.ingredients.map(ingredient => (
-                            <li className='text-sm'>{ingredient.name}</li>
+                            <li key={ingredient.name} className='text-sm'>
+                              {ingredient.name}
+                            </li>
                           ))}
                         </ul>
                       </button>
@@ -179,20 +215,21 @@ function Item ({ id, item, amount, remove, recipes, seen, parentCompleted }) {
       </div>
       {ingredients && (
         <ul className='pl-4'>
-          {ingredients.map(ingredient => {
+          {ingredients.map((ingredient, i) => {
             if (ingredient.name.includes(' Wall')) return null
             if (seen.includes(ingredient.name)) return null
-            let thing = _.find(recipes, { name: ingredient.name })
-            if (!thing) thing = { name: ingredient.name }
             return (
               <Item
-                id={id}
-                key={thing.name}
-                item={thing}
+                key={ingredient.name}
+                name={ingredient.name}
                 amount={ingredient.amount}
+                path={[...path, i]}
+                item={item}
                 recipes={recipes}
-                seen={[...seen, thing.name]}
+                seen={[...seen, ingredient.name]}
                 parentCompleted={completed}
+                setCompleted={setCompleted}
+                setVariant={setVariant}
               />
             )
           })}

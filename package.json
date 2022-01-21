@@ -10,6 +10,7 @@
     "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
     "scrape": "node scraper/fetch-html && node scraper/parse-html",
     "postinstall": "remix setup node",
+    "deploy": "fly deploy --remote-only",
     "start": "remix-serve build"
   },
   "dependencies": {

@@ -33,6 +33,8 @@ const compare = (a, b) => {
 //   return [value, setValue]
 // }
 
+const newEntry = name => ({ id: nanoid(), name, completed: {}, variants: {} })
+
 export default function Index () {
   const [text, setText] = React.useState('')
   const { recipes, url } = useLoaderData()
@@ -57,6 +59,31 @@ export default function Index () {
   return (
     <div>
       <h1 className='py-3 text-center text-3xl'>Terraria Recipes</h1>
+      <button
+        tabIndex={-1}
+        className='absolute right-0 top-0 opacity-0 hover:opacity-100'
+        onClick={() => {
+          setSelected([
+            newEntry('Celestial Shell'),
+            newEntry('Frog Gear'),
+            newEntry('Arctic Diving Gear'),
+
+            newEntry('Bundle of Horseshoe Balloons'),
+            newEntry('The Grand Design'),
+            newEntry('Hand Of Creation'),
+
+            newEntry('Terraspark Boots'),
+            newEntry('Celestial Cuffs'),
+            newEntry('Lavaproof Tackle Bag'),
+
+            newEntry('Zenith'),
+            newEntry('Shellphone'),
+            newEntry('Ankh Shield')
+          ])
+        }}
+      >
+        a
+      </button>
       <div className='mx-8 mb-4'>
         <input
           type='search'
@@ -72,15 +99,7 @@ export default function Index () {
                 key={match.name}
                 className='hover:bg-slate-100 cursor-pointer px-4 py-2'
                 onClick={() => {
-                  setSelected(a => [
-                    ...a,
-                    {
-                      id: nanoid(),
-                      name: match.name,
-                      completed: {},
-                      variants: {}
-                    }
-                  ])
+                  setSelected(a => [...a, newEntry(match.name)])
                   setText('')
                 }}
               >

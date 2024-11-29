@@ -56,21 +56,21 @@ export default function Index () {
   if (matches.length > 15) matches.length = 15
   return (
     <div>
-      <h1 className='text-3xl text-center py-3'>Terraria Recipes</h1>
+      <h1 className='py-3 text-center text-3xl'>Terraria Recipes</h1>
       <div className='mx-8 mb-4'>
         <input
           type='search'
           placeholder='Search...'
-          className='border border-neutral-400 rounded py-2 px-3 w-full'
+          className='border-neutral-400 w-full rounded border px-3 py-2'
           value={text}
           onChange={e => setText(e.target.value)}
         />
         {!!matches.length && (
-          <ul className='shadow-md shadow-slate-300 py-2'>
+          <ul className='shadow-slate-300 py-2 shadow-md'>
             {matches.map(match => (
               <li
                 key={match.name}
-                className='px-4 py-2 hover:bg-slate-100 cursor-pointer'
+                className='hover:bg-slate-100 cursor-pointer px-4 py-2'
                 onClick={() => {
                   setSelected(a => [
                     ...a,
@@ -145,8 +145,9 @@ function Item ({
   return (
     <li
       className={clsx('list-disc', {
-        'line-through text-gray-300': completed,
-        'border-2 border-emerald-400 inline-block p-4 align-top m-3 relative': remove
+        'text-gray-300 line-through': completed,
+        'border-emerald-400 relative m-3 inline-block border-2 p-4 align-top':
+          remove
       })}
     >
       <div className={clsx({ 'pr-10': remove })}>
@@ -170,23 +171,23 @@ function Item ({
           {entries.length >= 2 && (
             <div className='inline'>
               <button
-                className='text-blue-500 text-sm ml-2'
+                className='ml-2 text-sm text-blue-500'
                 onClick={() => setShowingModal(a => !a)}
               >
                 change
               </button>
               {showingModal && (
-                <ul className='flex p-2 shadow-md border border-gray-200 absolute bg-white text-black'>
+                <ul className='border-gray-200 absolute flex border bg-white p-2 text-black shadow-md'>
                   {entries.map((entry, i) => (
                     <li key={i} className='ml-2 first:ml-0'>
                       <button
-                        className='border-2 border-emerald-400 p-2 hover:bg-emerald-50 text-left whitespace-nowrap'
+                        className='border-emerald-400 hover:bg-emerald-50 whitespace-nowrap border-2 p-2 text-left'
                         onClick={() => {
                           setVariant(myPath, i)
                           setShowingModal(false)
                         }}
                       >
-                        <div className='font-bold text-sm underline'>
+                        <div className='text-sm font-bold underline'>
                           {entry.workbench.join('/')}
                         </div>
                         <ul>
@@ -206,7 +207,7 @@ function Item ({
         </span>
         {remove && (
           <button
-            className='px-3 ml-2 text-xl bg-red-400 hover:bg-red-500 active:bg-red-600 text-white rounded absolute top-3 right-3'
+            className='active:bg-red-600 absolute right-3 top-3 ml-2 rounded bg-red-400 px-3 text-xl text-white hover:bg-red-500'
             onClick={remove}
           >
             ×

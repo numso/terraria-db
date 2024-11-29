@@ -508,6 +508,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Adamantite Bar",
+    "ingredients": [
+      {
+        "name": "Titanium Bar",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Adamantite Beam",
     "ingredients": [
@@ -517,7 +527,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -636,6 +646,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Adamantite Ore",
+    "ingredients": [
+      {
+        "name": "Titanium Ore",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Adamantite Pickaxe",
     "ingredients": [
@@ -672,6 +692,74 @@
       {
         "name": "Adamantite Bar",
         "amount": 12
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Aether Campfire",
+    "ingredients": [
+      {
+        "name": "Aether Torch",
+        "amount": 5
+      },
+      {
+        "name": "Any Wood",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Aetherium Block",
+    "ingredients": [
+      {
+        "name": "Aetherium Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Furnace"],
+    "name": "Aetherium Brick",
+    "ingredients": [
+      {
+        "name": "Aetherium Block",
+        "amount": 1
+      },
+      {
+        "name": "Stone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Aetherium Brick",
+    "ingredients": [
+      {
+        "name": "Aetherium Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Aetherium Brick Wall",
+    "ingredients": [
+      {
+        "name": "Aetherium Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Aetherium Wall",
+    "ingredients": [
+      {
+        "name": "Aetherium Block",
+        "amount": 1
       }
     ]
   },
@@ -902,17 +990,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Amber Stone Block",
-    "ingredients": [
-      {
-        "name": "Amber Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Amber Stone Block",
     "ingredients": [
       {
@@ -1122,17 +1200,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Amethyst Stone Block",
-    "ingredients": [
-      {
-        "name": "Amethyst Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Amethyst Stone Block",
     "ingredients": [
       {
@@ -1194,6 +1262,66 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Blue Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Blue Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Blue Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Blue Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Cobalt Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Cobalt Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Cobalt Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Cobalt Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Copper Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Copper Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Copper Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Copper Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Loom"],
     "name": "Ancient Garments",
     "ingredients": [
@@ -1204,6 +1332,46 @@
       {
         "name": "Silk",
         "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Gold Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Gold Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Gold Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Gold Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Green Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Green Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Green Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Green Brick",
+        "amount": 1
       }
     ]
   },
@@ -1282,6 +1450,106 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Hellstone Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Hellstone Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Hellstone Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Hellstone Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Mythril Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Mythril Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Mythril Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Mythril Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Obsidian Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Obsidian Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Obsidian Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Obsidian Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Pink Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Pink Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Pink Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Pink Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Silver Brick",
+    "ingredients": [
+      {
+        "name": "Ancient Silver Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ancient Silver Brick Wall",
+    "ingredients": [
+      {
+        "name": "Ancient Silver Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Loom"],
     "name": "Ancient Slacks",
     "ingredients": [
@@ -1309,7 +1577,7 @@
       },
       {
         "name": "Soul of Light",
-        "amount": 25
+        "amount": 15
       }
     ]
   },
@@ -1340,15 +1608,15 @@
         "amount": 1
       },
       {
-        "name": "Blindfold",
-        "amount": 1
-      },
-      {
         "name": "Countercurse Mantra",
         "amount": 1
       },
       {
         "name": "Medicated Bandage",
+        "amount": 1
+      },
+      {
+        "name": "Reflective Shades",
         "amount": 1
       },
       {
@@ -1520,6 +1788,54 @@
     ]
   },
   {
+    "workbench": ["Furnace"],
+    "name": "Argon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Argon Moss",
+        "amount": 1
+      },
+      {
+        "name": "Clay Block",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Argon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Argon Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Argon Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Argon Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Argon Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Argon Moss",
+        "amount": 5
+      },
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Tinkerer's Workshop"],
     "name": "Armor Bracing",
     "ingredients": [
@@ -1554,6 +1870,376 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Ash Wood",
+    "ingredients": [
+      {
+        "name": "Ash Wood Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood",
+    "ingredients": [
+      {
+        "name": "Ash Wood Fence",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood",
+    "ingredients": [
+      {
+        "name": "Ash Wood Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Bathtub",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 14
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Bed",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 15
+      },
+      {
+        "name": "Silk",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Bookcase",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 20
+      },
+      {
+        "name": "Book",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Bow",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Breastplate",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 30
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Candelabra",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 5
+      },
+      {
+        "name": "Torch",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Candle",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 4
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Chair",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Ash Wood Chandelier",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 4
+      },
+      {
+        "name": "Chain",
+        "amount": 1
+      },
+      {
+        "name": "Torch",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Chest",
+    "ingredients": [
+      {
+        "name": "Any Iron Bar",
+        "amount": 2
+      },
+      {
+        "name": "Ash Wood",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Clock",
+    "ingredients": [
+      {
+        "name": "Any Iron Bar",
+        "amount": 3
+      },
+      {
+        "name": "Ash Wood",
+        "amount": 10
+      },
+      {
+        "name": "Glass",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Door",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Dresser",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 16
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Fence",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Greaves",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 25
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Hammer",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Helmet",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Lamp",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Lantern",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 6
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Piano",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 15
+      },
+      {
+        "name": "Bone",
+        "amount": 4
+      },
+      {
+        "name": "Book",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Ash Wood Platform",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Sink",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 6
+      },
+      {
+        "name": "Water Bucket",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Sofa",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 5
+      },
+      {
+        "name": "Silk",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Sword",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 7
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Table",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Ash Wood Toilet",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Ash Wood Wall",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Ash Wood Work Bench",
+    "ingredients": [
+      {
+        "name": "Ash Wood",
+        "amount": 10
+      }
+    ]
+  },
+  {
     "workbench": ["Blend-O-Matic"],
     "name": "Asphalt Block",
     "ingredients": [
@@ -1564,6 +2250,26 @@
       {
         "name": "Stone Block",
         "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Astra Brick",
+    "ingredients": [
+      {
+        "name": "Astra Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Astra Brick Wall",
+    "ingredients": [
+      {
+        "name": "Astra Brick",
+        "amount": 1
       }
     ]
   },
@@ -1652,6 +2358,310 @@
       {
         "name": "Warrior Emblem",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Axe of Regrowth",
+    "ingredients": [
+      {
+        "name": "Copper Axe",
+        "amount": 1
+      },
+      {
+        "name": "Jungle Spores",
+        "amount": 12
+      },
+      {
+        "name": "Staff of Regrowth",
+        "amount": 1
+      },
+      {
+        "name": "Vine",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Axe of Regrowth",
+    "ingredients": [
+      {
+        "name": "Jungle Spores",
+        "amount": 12
+      },
+      {
+        "name": "Staff of Regrowth",
+        "amount": 1
+      },
+      {
+        "name": "Tin Axe",
+        "amount": 1
+      },
+      {
+        "name": "Vine",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Bathtub",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 14
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Bed",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 15
+      },
+      {
+        "name": "Silk",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Bookcase",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 20
+      },
+      {
+        "name": "Book",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Candelabra",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 5
+      },
+      {
+        "name": "Torch",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Candle",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 4
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Chair",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Balloon Chandelier",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 4
+      },
+      {
+        "name": "Chain",
+        "amount": 1
+      },
+      {
+        "name": "Torch",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Chest",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 8
+      },
+      {
+        "name": "Any Iron Bar",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Clock",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 10
+      },
+      {
+        "name": "Any Iron Bar",
+        "amount": 3
+      },
+      {
+        "name": "Glass",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Door",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Dresser",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 16
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Lamp",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Lantern",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 6
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Piano",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 15
+      },
+      {
+        "name": "Bone",
+        "amount": 4
+      },
+      {
+        "name": "Book",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Balloon Platform",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Sink",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 6
+      },
+      {
+        "name": "Water Bucket",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Sofa",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 5
+      },
+      {
+        "name": "Silk",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Balloon Table",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Balloon Toilet",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Balloon Work Bench",
+    "ingredients": [
+      {
+        "name": "Any Balloon",
+        "amount": 10
       }
     ]
   },
@@ -2322,6 +3332,32 @@
     ]
   },
   {
+    "workbench": ["Alchemy Table", "Placed Bottle"],
+    "name": "Biome Sight Potion",
+    "ingredients": [
+      {
+        "name": "Blinkroot",
+        "amount": 1
+      },
+      {
+        "name": "Bottled Water",
+        "amount": 1
+      },
+      {
+        "name": "Fireblossom",
+        "amount": 1
+      },
+      {
+        "name": "Grass Seeds",
+        "amount": 5
+      },
+      {
+        "name": "Moonglow",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Bird Cage",
     "ingredients": [
@@ -2463,11 +3499,15 @@
     "ingredients": [
       {
         "name": "Jungle Spores",
-        "amount": 12
+        "amount": 15
       },
       {
         "name": "Stinger",
         "amount": 12
+      },
+      {
+        "name": "Vine",
+        "amount": 3
       }
     ]
   },
@@ -2481,6 +3521,20 @@
       },
       {
         "name": "Shiny Red Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Crystal Ball"],
+    "name": "Blizzard in a Bottle",
+    "ingredients": [
+      {
+        "name": "Cloud in a Bottle",
+        "amount": 1
+      },
+      {
+        "name": "Frost Core",
         "amount": 1
       }
     ]
@@ -2562,6 +3616,76 @@
       {
         "name": "Silk",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Blue Brick",
+    "ingredients": [
+      {
+        "name": "Blue Brick Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Blue Brick",
+    "ingredients": [
+      {
+        "name": "Green Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Brick",
+    "ingredients": [
+      {
+        "name": "Blue Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Brick",
+    "ingredients": [
+      {
+        "name": "Blue Slab Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Brick",
+    "ingredients": [
+      {
+        "name": "Blue Tiled Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Blue Brick Platform",
+    "ingredients": [
+      {
+        "name": "Blue Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Brick Wall",
+    "ingredients": [
+      {
+        "name": "Blue Brick",
+        "amount": 1
       }
     ]
   },
@@ -2754,17 +3878,21 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Blue Moss",
+    "workbench": ["By Hand"],
+    "name": "Blue Macaw Cage",
     "ingredients": [
       {
-        "name": "Blue Mossy Wall",
-        "amount": 4
+        "name": "Blue Macaw",
+        "amount": 1
+      },
+      {
+        "name": "Terrarium",
+        "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Blue Moss",
     "ingredients": [
       {
@@ -2817,7 +3945,17 @@
       },
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Slab Wall",
+    "ingredients": [
+      {
+        "name": "Blue Brick",
+        "amount": 1
       }
     ]
   },
@@ -2884,6 +4022,16 @@
     ]
   },
   {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Blue Tiled Wall",
+    "ingredients": [
+      {
+        "name": "Blue Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Blue Torch",
     "ingredients": [
@@ -2932,6 +4080,16 @@
       {
         "name": "Bone Block Wall",
         "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder"],
+    "name": "Bone",
+    "ingredients": [
+      {
+        "name": "Bone Platform",
+        "amount": 2
       }
     ]
   },
@@ -3149,6 +4307,16 @@
       },
       {
         "name": "Book",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder"],
+    "name": "Bone Platform",
+    "ingredients": [
+      {
+        "name": "Bone",
         "amount": 1
       }
     ]
@@ -3670,6 +4838,20 @@
     ]
   },
   {
+    "workbench": ["Ancient Manipulator"],
+    "name": "Bottomless Shimmer Bucket",
+    "ingredients": [
+      {
+        "name": "Bottomless Water Bucket",
+        "amount": 1
+      },
+      {
+        "name": "Luminite Bar",
+        "amount": 10
+      }
+    ]
+  },
+  {
     "workbench": ["Heavy Work Bench"],
     "name": "Boulder",
     "ingredients": [
@@ -3718,6 +4900,20 @@
       {
         "name": "Pink Gel",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Bouncy Boulder",
+    "ingredients": [
+      {
+        "name": "Boulder",
+        "amount": 1
+      },
+      {
+        "name": "Pink Gel",
+        "amount": 5
       }
     ]
   },
@@ -3783,6 +4979,26 @@
       },
       {
         "name": "Mushroom",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Brass Shelf",
+    "ingredients": [
+      {
+        "name": "Copper Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Brass Shelf",
+    "ingredients": [
+      {
+        "name": "Copper Brick",
         "amount": 1
       }
     ]
@@ -3994,17 +5210,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Brown Moss",
-    "ingredients": [
-      {
-        "name": "Brown Mossy Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Brown Moss",
     "ingredients": [
       {
@@ -4085,7 +5291,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -4187,6 +5393,96 @@
       },
       {
         "name": "Sandstorm in a Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Bundle of Horseshoe Balloons",
+    "ingredients": [
+      {
+        "name": "Any Blizzard Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Any Cloud Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Yellow Horseshoe Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Bundle of Horseshoe Balloons",
+    "ingredients": [
+      {
+        "name": "Any Blizzard Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Any Sandstorm Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Blue Horseshoe Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Bundle of Horseshoe Balloons",
+    "ingredients": [
+      {
+        "name": "Any Cloud Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Any Sandstorm Balloon",
+        "amount": 1
+      },
+      {
+        "name": "White Horseshoe Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Bundle of Horseshoe Balloons",
+    "ingredients": [
+      {
+        "name": "Blizzard in a Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Cloud in a Balloon",
+        "amount": 1
+      },
+      {
+        "name": "Lucky Horseshoe",
+        "amount": 1
+      },
+      {
+        "name": "Sandstorm in a Balloon",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Bundle of Horseshoe Balloons",
+    "ingredients": [
+      {
+        "name": "Bundle of Balloons",
+        "amount": 1
+      },
+      {
+        "name": "Lucky Horseshoe",
         "amount": 1
       }
     ]
@@ -4851,19 +6147,19 @@
     "ingredients": [
       {
         "name": "Nebula Fragment",
-        "amount": 20
+        "amount": 12
       },
       {
         "name": "Solar Fragment",
-        "amount": 20
+        "amount": 12
       },
       {
         "name": "Stardust Fragment",
-        "amount": 20
+        "amount": 12
       },
       {
         "name": "Vortex Fragment",
-        "amount": 20
+        "amount": 12
       }
     ]
   },
@@ -4948,6 +6244,20 @@
     ]
   },
   {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Chest Lock",
+    "ingredients": [
+      {
+        "name": "Bone",
+        "amount": 5
+      },
+      {
+        "name": "Chain",
+        "amount": 2
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Chik",
     "ingredients": [
@@ -5019,7 +6329,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 2
+        "amount": 5
       }
     ]
   },
@@ -5084,6 +6394,20 @@
       {
         "name": "Chlorophyte Bar",
         "amount": 18
+      }
+    ]
+  },
+  {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Chlorophyte Extractinator",
+    "ingredients": [
+      {
+        "name": "Chlorophyte Bar",
+        "amount": 18
+      },
+      {
+        "name": "Extractinator",
+        "amount": 1
       }
     ]
   },
@@ -5272,6 +6596,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Cobalt Bar",
+    "ingredients": [
+      {
+        "name": "Palladium Bar",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Cobalt Bar",
     "ingredients": [
@@ -5301,7 +6635,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -5396,6 +6730,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Cobalt Ore",
+    "ingredients": [
+      {
+        "name": "Palladium Ore",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Cobalt Pickaxe",
     "ingredients": [
@@ -5436,7 +6780,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Cobweb",
     "ingredients": [
       {
@@ -5446,12 +6790,30 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Cobweb",
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Cockatiel Statue",
     "ingredients": [
       {
-        "name": "Spider Wall",
-        "amount": 4
+        "name": "Any Cockatiel",
+        "amount": 5
+      },
+      {
+        "name": "Stone Block",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Cockatiel Statue",
+    "ingredients": [
+      {
+        "name": "Any Cockatiel",
+        "amount": 5
+      },
+      {
+        "name": "Stone Block",
+        "amount": 50
       }
     ]
   },
@@ -5702,6 +7064,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Copper Bar",
+    "ingredients": [
+      {
+        "name": "Tin Bar",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Copper Bar",
     "ingredients": [
@@ -5722,6 +7094,16 @@
     ]
   },
   {
+    "workbench": ["Bone Welder"],
+    "name": "Copper Brick",
+    "ingredients": [
+      {
+        "name": "Brass Shelf",
+        "amount": 2
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Copper Brick",
     "ingredients": [
@@ -5731,7 +7113,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -5838,6 +7220,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Copper Ore",
+    "ingredients": [
+      {
+        "name": "Tin Ore",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Copper Pickaxe",
     "ingredients": [
@@ -5861,7 +7253,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -5933,7 +7325,7 @@
       },
       {
         "name": "Torch",
-        "amount": 1
+        "amount": 3
       }
     ]
   },
@@ -6088,6 +7480,26 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Cosmic Ember Brick",
+    "ingredients": [
+      {
+        "name": "Cosmic Ember Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Cosmic Ember Brick Wall",
+    "ingredients": [
+      {
+        "name": "Cosmic Ember Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Tinkerer's Workshop"],
     "name": "Countercurse Mantra",
     "ingredients": [
@@ -6198,17 +7610,35 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimsandstone Block",
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Crawdad Banner",
     "ingredients": [
       {
-        "name": "Crimsandstone Wall",
-        "amount": 4
+        "name": "Giant Shelly Banner",
+        "amount": 1
+      },
+      {
+        "name": "Salamander Banner",
+        "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Crawdad Banner",
+    "ingredients": [
+      {
+        "name": "Giant Shelly Banner",
+        "amount": 1
+      },
+      {
+        "name": "Salamander Banner",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
     "name": "Crimsandstone Block",
     "ingredients": [
       {
@@ -6416,7 +7846,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Crimstone Block",
     "ingredients": [
       {
@@ -6426,17 +7856,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimstone Block",
-    "ingredients": [
-      {
-        "name": "Crimson Blister Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Crimstone Block",
     "ingredients": [
       {
@@ -6446,17 +7866,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimstone Block",
-    "ingredients": [
-      {
-        "name": "Crimson Crust Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Crimstone Block",
     "ingredients": [
       {
@@ -6466,17 +7876,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimstone Block",
-    "ingredients": [
-      {
-        "name": "Crimson Scab Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Crimstone Block",
     "ingredients": [
       {
@@ -6486,27 +7886,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimstone Block",
-    "ingredients": [
-      {
-        "name": "Crimson Teeth Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Crimstone Block",
-    "ingredients": [
-      {
-        "name": "Crimstone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Crimstone Block",
     "ingredients": [
       {
@@ -6635,6 +8015,26 @@
     "ingredients": [
       {
         "name": "Dirt Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Cryocore Brick",
+    "ingredients": [
+      {
+        "name": "Cryocore Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Cryocore Brick Wall",
+    "ingredients": [
+      {
+        "name": "Cryocore Brick",
         "amount": 1
       }
     ]
@@ -7053,6 +8453,20 @@
   },
   {
     "workbench": ["By Hand"],
+    "name": "Cursed Flare",
+    "ingredients": [
+      {
+        "name": "Cursed Flame",
+        "amount": 1
+      },
+      {
+        "name": "Flare",
+        "amount": 33
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
     "name": "Cursed Torch",
     "ingredients": [
       {
@@ -7208,6 +8622,26 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Dark Celestial Brick",
+    "ingredients": [
+      {
+        "name": "Dark Celestial Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Dark Celestial Brick Wall",
+    "ingredients": [
+      {
+        "name": "Dark Celestial Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Ancient Manipulator"],
     "name": "Daybreak",
     "ingredients": [
@@ -7256,6 +8690,26 @@
       {
         "name": "Soul of Night",
         "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Decorative Healing Potion",
+    "ingredients": [
+      {
+        "name": "Lesser Healing Potion",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Decorative Mana Potion",
+    "ingredients": [
+      {
+        "name": "Lesser Mana Potion",
+        "amount": 1
       }
     ]
   },
@@ -7467,7 +8921,17 @@
       },
       {
         "name": "Soul of Night",
-        "amount": 25
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Demonite Bar",
+    "ingredients": [
+      {
+        "name": "Crimtane Bar",
+        "amount": 1
       }
     ]
   },
@@ -7516,6 +8980,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Demonite Ore",
+    "ingredients": [
+      {
+        "name": "Crimtane Ore",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Desert Campfire",
     "ingredients": [
@@ -7530,17 +9004,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Desert Fossil",
-    "ingredients": [
-      {
-        "name": "Desert Fossil Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Desert Fossil",
     "ingredients": [
       {
@@ -7820,17 +9284,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Diamond Stone Block",
-    "ingredients": [
-      {
-        "name": "Diamond Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Diamond Stone Block",
     "ingredients": [
       {
@@ -7870,7 +9324,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Dirt Block",
     "ingredients": [
       {
@@ -7880,17 +9334,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Cave Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Dirt Block",
     "ingredients": [
       {
@@ -7900,111 +9344,11 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Cracked Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Dirt Block",
     "ingredients": [
       {
         "name": "Crumbling Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Crumbling Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Layered Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Layered Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Rocky Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Rocky Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Rough Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Rough Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Wavy Dirt Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Dirt Block",
-    "ingredients": [
-      {
-        "name": "Wavy Dirt Wall",
         "amount": 4
       }
     ]
@@ -8015,6 +9359,46 @@
     "ingredients": [
       {
         "name": "Dirt Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Dirt Block",
+    "ingredients": [
+      {
+        "name": "Layered Dirt Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Dirt Block",
+    "ingredients": [
+      {
+        "name": "Rocky Dirt Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Dirt Block",
+    "ingredients": [
+      {
+        "name": "Rough Dirt Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Dirt Block",
+    "ingredients": [
+      {
+        "name": "Wavy Dirt Wall",
         "amount": 4
       }
     ]
@@ -8256,6 +9640,26 @@
       {
         "name": "Stone Block",
         "amount": 50
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Dungeon Shelf",
+    "ingredients": [
+      {
+        "name": "Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Dungeon Shelf",
+    "ingredients": [
+      {
+        "name": "Wood",
+        "amount": 1
       }
     ]
   },
@@ -8552,17 +9956,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonsandstone Block",
-    "ingredients": [
-      {
-        "name": "Ebonsandstone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonsandstone Block",
     "ingredients": [
       {
@@ -8592,7 +9986,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonstone Block",
     "ingredients": [
       {
@@ -8602,17 +9996,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonstone Block",
-    "ingredients": [
-      {
-        "name": "Corrupt Growth Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonstone Block",
     "ingredients": [
       {
@@ -8622,17 +10006,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonstone Block",
-    "ingredients": [
-      {
-        "name": "Corrupt Mass Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonstone Block",
     "ingredients": [
       {
@@ -8642,17 +10016,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonstone Block",
-    "ingredients": [
-      {
-        "name": "Corrupt Pustule Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonstone Block",
     "ingredients": [
       {
@@ -8662,27 +10026,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonstone Block",
-    "ingredients": [
-      {
-        "name": "Corrupt Tendril Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ebonstone Block",
-    "ingredients": [
-      {
-        "name": "Ebonstone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ebonstone Block",
     "ingredients": [
       {
@@ -9112,6 +10456,64 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Echo Block",
+    "ingredients": [
+      {
+        "name": "Echo Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Echo Block",
+    "ingredients": [
+      {
+        "name": "Echo Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Echo Chamber",
+    "ingredients": [
+      {
+        "name": "Echo Block",
+        "amount": 20
+      },
+      {
+        "name": "Gray Brick",
+        "amount": 10
+      },
+      {
+        "name": "Wire",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Echo Platform",
+    "ingredients": [
+      {
+        "name": "Echo Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Echo Wall",
+    "ingredients": [
+      {
+        "name": "Echo Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Ecto Mist", "Work Bench"],
     "name": "Ember Wall",
     "ingredients": [
@@ -9312,17 +10714,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Emerald Stone Block",
-    "ingredients": [
-      {
-        "name": "Emerald Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Emerald Stone Block",
     "ingredients": [
       {
@@ -9357,7 +10749,7 @@
     "ingredients": [
       {
         "name": "Any Iron Bar",
-        "amount": 3
+        "amount": 2
       }
     ]
   },
@@ -9504,6 +10896,20 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Faeling in a Bottle",
+    "ingredients": [
+      {
+        "name": "Bottle",
+        "amount": 1
+      },
+      {
+        "name": "Faeling",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Fairy Bell",
     "ingredients": [
@@ -9545,7 +10951,7 @@
     "ingredients": [
       {
         "name": "Pixie Dust",
-        "amount": 100
+        "amount": 99
       },
       {
         "name": "Soul of Flight",
@@ -9564,6 +10970,20 @@
       {
         "name": "Silk",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Fart Kart",
+    "ingredients": [
+      {
+        "name": "Minecart",
+        "amount": 1
+      },
+      {
+        "name": "Whoopie Cushion",
+        "amount": 1
       }
     ]
   },
@@ -9618,12 +11038,20 @@
     ]
   },
   {
-    "workbench": ["Iron", "Lead Anvil"],
-    "name": "Fiery Greatsword",
+    "workbench": ["Alchemy Table", "Placed Bottle"],
+    "name": "Fertilizer",
     "ingredients": [
       {
-        "name": "Hellstone Bar",
-        "amount": 20
+        "name": "Ash Block",
+        "amount": 3
+      },
+      {
+        "name": "Bone",
+        "amount": 3
+      },
+      {
+        "name": "Poo",
+        "amount": 3
       }
     ]
   },
@@ -10522,6 +11950,34 @@
     ]
   },
   {
+    "workbench": ["Honey"],
+    "name": "Flymeal",
+    "ingredients": [
+      {
+        "name": "Gold Broadsword",
+        "amount": 1
+      },
+      {
+        "name": "Stinkbug",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "workbench": ["Honey"],
+    "name": "Flymeal",
+    "ingredients": [
+      {
+        "name": "Platinum Broadsword",
+        "amount": 1
+      },
+      {
+        "name": "Stinkbug",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Forbidden Mask",
     "ingredients": [
@@ -11378,6 +12834,36 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Gentleman's Beard",
+    "ingredients": [
+      {
+        "name": "Gentleman's Long Beard",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Gentleman's Beard",
+    "ingredients": [
+      {
+        "name": "Gentleman's Magnificent Beard",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Gentleman's Long Beard",
+    "ingredients": [
+      {
+        "name": "Gentleman's Magnificent Beard",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Loom"],
     "name": "Gentleman's Trousers",
     "ingredients": [
@@ -11394,6 +12880,54 @@
       {
         "name": "Silk",
         "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Ghostly Stinkbug Blocker",
+    "ingredients": [
+      {
+        "name": "Stinkbug",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Ghostly Stinkbug Blocker",
+    "ingredients": [
+      {
+        "name": "Stinkbug",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Giant Shelly Banner",
+    "ingredients": [
+      {
+        "name": "Crawdad Banner",
+        "amount": 1
+      },
+      {
+        "name": "Salamander Banner",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Giant Shelly Banner",
+    "ingredients": [
+      {
+        "name": "Crawdad Banner",
+        "amount": 1
+      },
+      {
+        "name": "Salamander Banner",
+        "amount": 1
       }
     ]
   },
@@ -11756,6 +13290,20 @@
     ]
   },
   {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Glowing Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Fallen Star",
+        "amount": 5
+      },
+      {
+        "name": "Fishing Bobber",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Glowing Mushroom",
     "ingredients": [
@@ -11846,6 +13394,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Gold Bar",
+    "ingredients": [
+      {
+        "name": "Platinum Bar",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Gold Bar",
     "ingredients": [
@@ -11889,7 +13447,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -12127,6 +13685,16 @@
       },
       {
         "name": "Terrarium",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Gold Ore",
+    "ingredients": [
+      {
+        "name": "Platinum Ore",
         "amount": 1
       }
     ]
@@ -12758,7 +14326,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Grass Seeds",
     "ingredients": [
       {
@@ -12768,27 +14336,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Grass Seeds",
-    "ingredients": [
-      {
-        "name": "Ivy Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Grass Seeds",
-    "ingredients": [
-      {
-        "name": "Lichen Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Grass Seeds",
     "ingredients": [
       {
@@ -12854,12 +14402,12 @@
     "name": "Gravedigger's Shovel",
     "ingredients": [
       {
-        "name": "Any Wood",
-        "amount": 3
+        "name": "Any Iron Bar",
+        "amount": 12
       },
       {
-        "name": "Iron Bar",
-        "amount": 12
+        "name": "Any Wood",
+        "amount": 3
       }
     ]
   },
@@ -12868,40 +14416,12 @@
     "name": "Gravedigger's Shovel",
     "ingredients": [
       {
-        "name": "Any Wood",
-        "amount": 3
-      },
-      {
-        "name": "Iron Bar",
+        "name": "Any Iron Bar",
         "amount": 12
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Iron", "Lead Anvil"],
-    "name": "Gravedigger's Shovel",
-    "ingredients": [
+      },
       {
         "name": "Any Wood",
         "amount": 3
-      },
-      {
-        "name": "Lead Bar",
-        "amount": 12
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Iron", "Lead Anvil"],
-    "name": "Gravedigger's Shovel",
-    "ingredients": [
-      {
-        "name": "Any Wood",
-        "amount": 3
-      },
-      {
-        "name": "Lead Bar",
-        "amount": 12
       }
     ]
   },
@@ -12967,6 +14487,20 @@
     "ingredients": [
       {
         "name": "Gray Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Gray Cockatiel Cage",
+    "ingredients": [
+      {
+        "name": "Gray Cockatiel",
+        "amount": 1
+      },
+      {
+        "name": "Terrarium",
         "amount": 1
       }
     ]
@@ -13080,6 +14614,76 @@
       {
         "name": "Silk",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Green Brick",
+    "ingredients": [
+      {
+        "name": "Green Brick Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Green Brick",
+    "ingredients": [
+      {
+        "name": "Pink Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Brick",
+    "ingredients": [
+      {
+        "name": "Green Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Brick",
+    "ingredients": [
+      {
+        "name": "Green Slab Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Brick",
+    "ingredients": [
+      {
+        "name": "Green Tiled Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Green Brick Platform",
+    "ingredients": [
+      {
+        "name": "Green Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Brick Wall",
+    "ingredients": [
+      {
+        "name": "Green Brick",
+        "amount": 1
       }
     ]
   },
@@ -13268,17 +14872,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Green Moss",
-    "ingredients": [
-      {
-        "name": "Green Mossy Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Green Moss",
     "ingredients": [
       {
@@ -13327,10 +14921,20 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "Green Phaseblade",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Slab Wall",
+    "ingredients": [
+      {
+        "name": "Green Brick",
         "amount": 1
       }
     ]
@@ -13408,6 +15012,16 @@
       {
         "name": "Jungle Grass Seeds",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Green Tiled Wall",
+    "ingredients": [
+      {
+        "name": "Green Brick",
+        "amount": 1
       }
     ]
   },
@@ -13501,6 +15115,20 @@
       },
       {
         "name": "Terrarium",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Guide to Peaceful Coexistence",
+    "ingredients": [
+      {
+        "name": "Any Guide to Critter Companionship",
+        "amount": 1
+      },
+      {
+        "name": "Any Guide to Environmental Preservation",
         "amount": 1
       }
     ]
@@ -13732,6 +15360,28 @@
     ]
   },
   {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Hand Of Creation",
+    "ingredients": [
+      {
+        "name": "Ancient Chisel",
+        "amount": 1
+      },
+      {
+        "name": "Architect Gizmo Pack",
+        "amount": 1
+      },
+      {
+        "name": "Step Stool",
+        "amount": 1
+      },
+      {
+        "name": "Treasure Magnet",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Hanging Blinkroot",
     "ingredients": [
@@ -13872,17 +15522,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hardened Crimsand Block",
-    "ingredients": [
-      {
-        "name": "Hardened Crimsand Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hardened Crimsand Block",
     "ingredients": [
       {
@@ -13912,17 +15552,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hardened Ebonsand Block",
-    "ingredients": [
-      {
-        "name": "Hardened Ebonsand Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hardened Ebonsand Block",
     "ingredients": [
       {
@@ -13952,17 +15582,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hardened Pearlsand Block",
-    "ingredients": [
-      {
-        "name": "Hardened Pearlsand Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hardened Pearlsand Block",
     "ingredients": [
       {
@@ -13992,17 +15612,51 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
     "name": "Hardened Sand Block",
     "ingredients": [
       {
-        "name": "Hardened Sand Wall",
-        "amount": 4
+        "name": "Hardened Crimsand Block",
+        "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Hardened Sand Block",
+    "ingredients": [
+      {
+        "name": "Hardened Ebonsand Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Hardened Sand Block",
+    "ingredients": [
+      {
+        "name": "Hardened Pearlsand Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Solidifier"],
+    "name": "Hardened Sand Block",
+    "ingredients": [
+      {
+        "name": "Dirt Block",
+        "amount": 1
+      },
+      {
+        "name": "Sand Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
     "name": "Hardened Sand Block",
     "ingredients": [
       {
@@ -14122,6 +15776,26 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Heavenforge Brick",
+    "ingredients": [
+      {
+        "name": "Heavenforge Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Heavenforge Brick Wall",
+    "ingredients": [
+      {
+        "name": "Heavenforge Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Heavy Work Bench",
     "ingredients": [
@@ -14132,6 +15806,54 @@
       {
         "name": "Any Wood",
         "amount": 12
+      }
+    ]
+  },
+  {
+    "workbench": ["Furnace"],
+    "name": "Helium Moss Brick",
+    "ingredients": [
+      {
+        "name": "Clay Block",
+        "amount": 10
+      },
+      {
+        "name": "Helium Moss",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Helium Moss Brick",
+    "ingredients": [
+      {
+        "name": "Helium Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Helium Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Helium Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Helium Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      },
+      {
+        "name": "Helium Moss",
+        "amount": 5
       }
     ]
   },
@@ -14172,13 +15894,13 @@
         "amount": 1
       },
       {
-        "name": "Lava Waders",
+        "name": "Spectre Boots",
         "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hellstone",
     "ingredients": [
       {
@@ -14188,17 +15910,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hellstone",
-    "ingredients": [
-      {
-        "name": "Cinder Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hellstone",
     "ingredients": [
       {
@@ -14208,17 +15920,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hellstone",
-    "ingredients": [
-      {
-        "name": "Ember Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hellstone",
     "ingredients": [
       {
@@ -14228,27 +15930,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hellstone",
-    "ingredients": [
-      {
-        "name": "Magma Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Hellstone",
-    "ingredients": [
-      {
-        "name": "Smouldering Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Hellstone",
     "ingredients": [
       {
@@ -14281,7 +15963,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -14410,6 +16092,16 @@
     ]
   },
   {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Hive-Five",
+    "ingredients": [
+      {
+        "name": "Bee Wax",
+        "amount": 14
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Holy Arrow",
     "ingredients": [
@@ -14424,6 +16116,24 @@
       {
         "name": "Wooden Arrow",
         "amount": 200
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Holy Hand Grenade",
+    "ingredients": [
+      {
+        "name": "Bottled Water",
+        "amount": 1
+      },
+      {
+        "name": "Dynamite",
+        "amount": 5
+      },
+      {
+        "name": "Gold Bar",
+        "amount": 2
       }
     ]
   },
@@ -14856,17 +16566,37 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
     "name": "Ice Block",
     "ingredients": [
       {
-        "name": "Ice Wall",
-        "amount": 4
+        "name": "Pink Ice Block",
+        "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Ice Block",
+    "ingredients": [
+      {
+        "name": "Purple Ice Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Ice Block",
+    "ingredients": [
+      {
+        "name": "Red Ice Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
     "name": "Ice Block",
     "ingredients": [
       {
@@ -15224,22 +16954,12 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
     "name": "Iron Bar",
     "ingredients": [
       {
-        "name": "Wrought Iron Fence",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Heavy Work Bench"],
-    "name": "Iron Bar",
-    "ingredients": [
-      {
-        "name": "Wrought Iron Fence",
-        "amount": 4
+        "name": "Lead Bar",
+        "amount": 1
       }
     ]
   },
@@ -15250,6 +16970,16 @@
       {
         "name": "Iron Ore",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Iron Bar",
+    "ingredients": [
+      {
+        "name": "Wrought Iron Fence",
+        "amount": 4
       }
     ]
   },
@@ -15283,7 +17013,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -15378,6 +17108,16 @@
       {
         "name": "Iron Bar",
         "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Iron Ore",
+    "ingredients": [
+      {
+        "name": "Lead Ore",
+        "amount": 1
       }
     ]
   },
@@ -15570,7 +17310,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Jungle Grass Seeds",
     "ingredients": [
       {
@@ -15580,27 +17320,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Jungle Grass Seeds",
-    "ingredients": [
-      {
-        "name": "Jungle Vine Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Jungle Grass Seeds",
-    "ingredients": [
-      {
-        "name": "Leafy Jungle Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Jungle Grass Seeds",
     "ingredients": [
       {
@@ -15722,6 +17442,54 @@
       {
         "name": "Soul of Night",
         "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Furnace"],
+    "name": "Krypton Moss Brick",
+    "ingredients": [
+      {
+        "name": "Clay Block",
+        "amount": 10
+      },
+      {
+        "name": "Krypton Moss",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Krypton Moss Brick",
+    "ingredients": [
+      {
+        "name": "Krypton Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Krypton Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Krypton Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Krypton Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      },
+      {
+        "name": "Krypton Moss",
+        "amount": 5
       }
     ]
   },
@@ -15906,6 +17674,54 @@
     ]
   },
   {
+    "workbench": ["Furnace"],
+    "name": "Lava Moss Brick",
+    "ingredients": [
+      {
+        "name": "Clay Block",
+        "amount": 10
+      },
+      {
+        "name": "Lava Moss",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Lava Moss Brick",
+    "ingredients": [
+      {
+        "name": "Lava Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Lava Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Lava Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Lava Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      },
+      {
+        "name": "Lava Moss",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Lava"],
     "name": "Lava Rocket",
     "ingredients": [
@@ -15961,6 +17777,34 @@
       },
       {
         "name": "Obsidian Rose",
+        "amount": 1
+      },
+      {
+        "name": "Water Walking Boots",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Lava Waders",
+    "ingredients": [
+      {
+        "name": "Molten Skull Rose",
+        "amount": 1
+      },
+      {
+        "name": "Obsidian Water Walking Boots",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Lava Waders",
+    "ingredients": [
+      {
+        "name": "Molten Skull Rose",
         "amount": 1
       },
       {
@@ -16149,7 +17993,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -16676,6 +18520,34 @@
     ]
   },
   {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Life Crystal Boulder",
+    "ingredients": [
+      {
+        "name": "Boulder",
+        "amount": 1
+      },
+      {
+        "name": "Life Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Life Crystal Boulder",
+    "ingredients": [
+      {
+        "name": "Boulder",
+        "amount": 1
+      },
+      {
+        "name": "Life Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Alchemy Table", "Placed Bottle"],
     "name": "Lifeforce Potion",
     "ingredients": [
@@ -16707,15 +18579,15 @@
     "ingredients": [
       {
         "name": "Hallowed Bar",
-        "amount": 4
+        "amount": 20
       },
       {
         "name": "Soul of Light",
-        "amount": 3
+        "amount": 15
       },
       {
         "name": "Soul of Might",
-        "amount": 5
+        "amount": 25
       }
     ]
   },
@@ -17681,7 +19553,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -17734,6 +19606,54 @@
       {
         "name": "Vortex Fragment",
         "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Lunar Rust Brick",
+    "ingredients": [
+      {
+        "name": "Lunar Rust Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Lunar Rust Brick Wall",
+    "ingredients": [
+      {
+        "name": "Lunar Rust Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Macaw Statue",
+    "ingredients": [
+      {
+        "name": "Any Macaw",
+        "amount": 5
+      },
+      {
+        "name": "Stone Block",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Macaw Statue",
+    "ingredients": [
+      {
+        "name": "Any Macaw",
+        "amount": 5
+      },
+      {
+        "name": "Stone Block",
+        "amount": 50
       }
     ]
   },
@@ -17802,6 +19722,42 @@
       {
         "name": "Empty Dropper",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Furnace"],
+    "name": "Magic Mirror",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "amount": 3
+      },
+      {
+        "name": "Glass",
+        "amount": 10
+      },
+      {
+        "name": "Gold Bar",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Furnace"],
+    "name": "Magic Mirror",
+    "ingredients": [
+      {
+        "name": "Diamond",
+        "amount": 3
+      },
+      {
+        "name": "Glass",
+        "amount": 10
+      },
+      {
+        "name": "Platinum Bar",
+        "amount": 8
       }
     ]
   },
@@ -17916,7 +19872,7 @@
     "name": "Magma Skull",
     "ingredients": [
       {
-        "name": "Magma Stone",
+        "name": "Lava Charm",
         "amount": 1
       },
       {
@@ -18751,24 +20707,6 @@
   },
   {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
-    "name": "Mechanical Cart",
-    "ingredients": [
-      {
-        "name": "Mechanical Battery Piece",
-        "amount": 1
-      },
-      {
-        "name": "Mechanical Wagon Piece",
-        "amount": 1
-      },
-      {
-        "name": "Mechanical Wheel Piece",
-        "amount": 1
-      }
-    ]
-  },
-  {
-    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Mechanical Eye",
     "ingredients": [
       {
@@ -18890,6 +20828,46 @@
       {
         "name": "Soul of Might",
         "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Mercury Brick",
+    "ingredients": [
+      {
+        "name": "Mercury Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Mercury Brick Wall",
+    "ingredients": [
+      {
+        "name": "Mercury Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Metal Shelf",
+    "ingredients": [
+      {
+        "name": "Tin Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Metal Shelf",
+    "ingredients": [
+      {
+        "name": "Tin Brick",
+        "amount": 1
       }
     ]
   },
@@ -19057,7 +21035,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -19356,6 +21334,24 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Minecart Upgrade Kit",
+    "ingredients": [
+      {
+        "name": "Mechanical Battery Piece",
+        "amount": 1
+      },
+      {
+        "name": "Mechanical Wagon Piece",
+        "amount": 1
+      },
+      {
+        "name": "Mechanical Wheel Piece",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Autohammer"],
     "name": "Mini Nuke I",
     "ingredients": [
@@ -19410,7 +21406,7 @@
         "amount": 5
       },
       {
-        "name": "Pink Gel",
+        "name": "Gel",
         "amount": 1
       },
       {
@@ -19516,6 +21512,20 @@
     "name": "Molten Skull Rose",
     "ingredients": [
       {
+        "name": "Lava Charm",
+        "amount": 1
+      },
+      {
+        "name": "Obsidian Skull Rose",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Molten Skull Rose",
+    "ingredients": [
+      {
         "name": "Magma Skull",
         "amount": 1
       },
@@ -19540,20 +21550,6 @@
     ]
   },
   {
-    "workbench": ["Tinkerer's Workshop"],
-    "name": "Molten Skull Rose",
-    "ingredients": [
-      {
-        "name": "Magma Stone",
-        "amount": 1
-      },
-      {
-        "name": "Obsidian Skull Rose",
-        "amount": 1
-      }
-    ]
-  },
-  {
     "workbench": ["By Hand"],
     "name": "Monarch Butterfly Jar",
     "ingredients": [
@@ -19564,6 +21560,60 @@
       {
         "name": "Monarch Butterfly",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Loom"],
+    "name": "Monokuma Body",
+    "ingredients": [
+      {
+        "name": "Black Thread",
+        "amount": 3
+      },
+      {
+        "name": "Silk",
+        "amount": 20
+      },
+      {
+        "name": "White Thread",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Loom"],
+    "name": "Monokuma Head",
+    "ingredients": [
+      {
+        "name": "Black Thread",
+        "amount": 3
+      },
+      {
+        "name": "Silk",
+        "amount": 20
+      },
+      {
+        "name": "White Thread",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Loom"],
+    "name": "Monokuma Legs",
+    "ingredients": [
+      {
+        "name": "Black Thread",
+        "amount": 3
+      },
+      {
+        "name": "Silk",
+        "amount": 20
+      },
+      {
+        "name": "White Thread",
+        "amount": 3
       }
     ]
   },
@@ -19664,32 +21714,22 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Mud Block",
-    "ingredients": [
-      {
-        "name": "Mud Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Mud Block",
-    "ingredients": [
-      {
-        "name": "Mud Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
     "workbench": ["Sink", "Water"],
     "name": "Mud Block",
     "ingredients": [
       {
         "name": "Dirt Block",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Mud Block",
+    "ingredients": [
+      {
+        "name": "Mud Wall",
+        "amount": 4
       }
     ]
   },
@@ -19868,6 +21908,20 @@
       {
         "name": "Glowing Mushroom",
         "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Mushroom Campfire",
+    "ingredients": [
+      {
+        "name": "Glowing Mushroom",
+        "amount": 10
+      },
+      {
+        "name": "Mushroom Torch",
+        "amount": 5
       }
     ]
   },
@@ -20084,6 +22138,20 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Mushroom Torch",
+    "ingredients": [
+      {
+        "name": "Glowing Mushroom",
+        "amount": 1
+      },
+      {
+        "name": "Torch",
+        "amount": 3
+      }
+    ]
+  },
+  {
     "workbench": ["Work Bench"],
     "name": "Mushroom Wall",
     "ingredients": [
@@ -20286,12 +22354,48 @@
     ]
   },
   {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Music Box (Tutorial)",
+    "ingredients": [
+      {
+        "name": "Music Box (Boss 4)",
+        "amount": 1
+      },
+      {
+        "name": "Music Box (Desert)",
+        "amount": 1
+      },
+      {
+        "name": "Music Box (Ocean)",
+        "amount": 1
+      },
+      {
+        "name": "Music Box (Snow)",
+        "amount": 1
+      },
+      {
+        "name": "Music Box (Space)",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Mythril Anvil",
     "ingredients": [
       {
         "name": "Mythril Bar",
         "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Mythril Bar",
+    "ingredients": [
+      {
+        "name": "Orichalcum Bar",
+        "amount": 1
       }
     ]
   },
@@ -20315,7 +22419,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -20416,6 +22520,16 @@
       {
         "name": "Mythril Bar",
         "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Mythril Ore",
+    "ingredients": [
+      {
+        "name": "Orichalcum Ore",
+        "amount": 1
       }
     ]
   },
@@ -21012,6 +23126,54 @@
     ]
   },
   {
+    "workbench": ["Furnace"],
+    "name": "Neon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Clay Block",
+        "amount": 10
+      },
+      {
+        "name": "Neon Moss",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Neon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Neon Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Neon Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Neon Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Neon Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      },
+      {
+        "name": "Neon Moss",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Alchemy Table", "Placed Bottle"],
     "name": "Night Owl Potion",
     "ingredients": [
@@ -21042,11 +23204,11 @@
         "amount": 1
       },
       {
-        "name": "Fiery Greatsword",
+        "name": "Muramasa",
         "amount": 1
       },
       {
-        "name": "Muramasa",
+        "name": "Volcano",
         "amount": 1
       }
     ]
@@ -21060,15 +23222,15 @@
         "amount": 1
       },
       {
-        "name": "Fiery Greatsword",
-        "amount": 1
-      },
-      {
         "name": "Light's Bane",
         "amount": 1
       },
       {
         "name": "Muramasa",
+        "amount": 1
+      },
+      {
+        "name": "Volcano",
         "amount": 1
       }
     ]
@@ -21088,17 +23250,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Obsidian",
-    "ingredients": [
-      {
-        "name": "Obsidian Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Obsidian",
     "ingredients": [
       {
@@ -21127,7 +23279,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 2
+        "amount": 5
       }
     ]
   },
@@ -21138,6 +23290,16 @@
       {
         "name": "Obsidian Brick Wall",
         "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Obsidian Brick Wall",
+    "ingredients": [
+      {
+        "name": "Obsidian Brick",
+        "amount": 1
       }
     ]
   },
@@ -21418,6 +23580,24 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Ocram's Razor",
+    "ingredients": [
+      {
+        "name": "Mechanical Eye",
+        "amount": 1
+      },
+      {
+        "name": "Mechanical Skull",
+        "amount": 1
+      },
+      {
+        "name": "Mechanical Worm",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Work Bench"],
     "name": "Offline Amber Gemspark Wall",
     "ingredients": [
@@ -21605,7 +23785,7 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "Orange Phaseblade",
@@ -21842,6 +24022,32 @@
     ]
   },
   {
+    "workbench": ["Hellforge"],
+    "name": "Otherworld Core",
+    "ingredients": [
+      {
+        "name": "Dread Fang",
+        "amount": 1
+      },
+      {
+        "name": "Foul Juice",
+        "amount": 1
+      },
+      {
+        "name": "Fusion Module",
+        "amount": 1
+      },
+      {
+        "name": "Twisted Slag",
+        "amount": 1
+      },
+      {
+        "name": "Weird Scales",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Outlet Pump",
     "ingredients": [
@@ -21959,7 +24165,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -22562,17 +24768,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlsandstone Block",
-    "ingredients": [
-      {
-        "name": "Pearlsandstone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlsandstone Block",
     "ingredients": [
       {
@@ -22602,7 +24798,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlstone Block",
     "ingredients": [
       {
@@ -22612,17 +24808,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlstone Block",
-    "ingredients": [
-      {
-        "name": "Hallowed Cavern Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlstone Block",
     "ingredients": [
       {
@@ -22632,17 +24818,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlstone Block",
-    "ingredients": [
-      {
-        "name": "Hallowed Crystalline Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlstone Block",
     "ingredients": [
       {
@@ -22652,17 +24828,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlstone Block",
-    "ingredients": [
-      {
-        "name": "Hallowed Prism Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlstone Block",
     "ingredients": [
       {
@@ -22672,27 +24838,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlstone Block",
-    "ingredients": [
-      {
-        "name": "Hallowed Shard Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Pearlstone Block",
-    "ingredients": [
-      {
-        "name": "Pearlstone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Pearlstone Block",
     "ingredients": [
       {
@@ -22706,12 +24852,8 @@
     "name": "Pearlstone Brick",
     "ingredients": [
       {
-        "name": "Pearlsand Block",
-        "amount": 1
-      },
-      {
         "name": "Pearlstone Block",
-        "amount": 1
+        "amount": 2
       }
     ]
   },
@@ -23272,6 +25414,76 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Pink Brick",
+    "ingredients": [
+      {
+        "name": "Pink Brick Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Pink Brick",
+    "ingredients": [
+      {
+        "name": "Blue Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Brick",
+    "ingredients": [
+      {
+        "name": "Pink Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Brick",
+    "ingredients": [
+      {
+        "name": "Pink Slab Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Brick",
+    "ingredients": [
+      {
+        "name": "Pink Tiled Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Pink Brick Platform",
+    "ingredients": [
+      {
+        "name": "Pink Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Brick Wall",
+    "ingredients": [
+      {
+        "name": "Pink Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Work Bench"],
     "name": "Pink Dungeon Chest",
     "ingredients": [
@@ -23432,6 +25644,16 @@
     ]
   },
   {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Slab Wall",
+    "ingredients": [
+      {
+        "name": "Pink Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Solidifier"],
     "name": "Pink Slime Block",
     "ingredients": [
@@ -23493,6 +25715,16 @@
       },
       {
         "name": "White String",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Pink Tiled Wall",
+    "ingredients": [
+      {
+        "name": "Pink Brick",
         "amount": 1
       }
     ]
@@ -23717,7 +25949,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -23937,6 +26169,26 @@
       },
       {
         "name": "Vile Powder",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Poo",
+    "ingredients": [
+      {
+        "name": "Poo Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Poo Wall",
+    "ingredients": [
+      {
+        "name": "Poo",
         "amount": 1
       }
     ]
@@ -24468,17 +26720,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Purple Moss",
-    "ingredients": [
-      {
-        "name": "Purple Mossy Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Purple Moss",
     "ingredients": [
       {
@@ -24527,7 +26769,7 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "Purple Phaseblade",
@@ -24742,6 +26984,20 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Rainbow Flare",
+    "ingredients": [
+      {
+        "name": "Flare",
+        "amount": 10
+      },
+      {
+        "name": "Rainbow Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
     "name": "Rainbow Rod",
     "ingredients": [
@@ -24934,17 +27190,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Red Moss",
-    "ingredients": [
-      {
-        "name": "Red Mossy Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Red Moss",
     "ingredients": [
       {
@@ -24993,7 +27239,7 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "Red Phaseblade",
@@ -25120,6 +27366,328 @@
     ]
   },
   {
+    "workbench": ["Sawmill"],
+    "name": "Reef Bathtub",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 14
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Bed",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 15
+      },
+      {
+        "name": "Silk",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Reef Block",
+    "ingredients": [
+      {
+        "name": "Reef Platform",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Sink", "Water"],
+    "name": "Reef Block",
+    "ingredients": [
+      {
+        "name": "Coral",
+        "amount": 1
+      },
+      {
+        "name": "Seashell",
+        "amount": 1
+      },
+      {
+        "name": "Stone Block",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Block",
+    "ingredients": [
+      {
+        "name": "Reef Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Bookcase",
+    "ingredients": [
+      {
+        "name": "Book",
+        "amount": 10
+      },
+      {
+        "name": "Reef Block",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Candelabra",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 5
+      },
+      {
+        "name": "Torch",
+        "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Candle",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 4
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Chair",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Reef Chandelier",
+    "ingredients": [
+      {
+        "name": "Chain",
+        "amount": 1
+      },
+      {
+        "name": "Reef Block",
+        "amount": 4
+      },
+      {
+        "name": "Torch",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Chest",
+    "ingredients": [
+      {
+        "name": "Any Iron Bar",
+        "amount": 2
+      },
+      {
+        "name": "Reef Block",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Clock",
+    "ingredients": [
+      {
+        "name": "Any Iron Bar",
+        "amount": 3
+      },
+      {
+        "name": "Glass",
+        "amount": 6
+      },
+      {
+        "name": "Reef Block",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Door",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Dresser",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 16
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Lamp",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Lantern",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 6
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Piano",
+    "ingredients": [
+      {
+        "name": "Bone",
+        "amount": 4
+      },
+      {
+        "name": "Book",
+        "amount": 1
+      },
+      {
+        "name": "Reef Block",
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Reef Platform",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Sink",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 6
+      },
+      {
+        "name": "Water Bucket",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Sofa",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 5
+      },
+      {
+        "name": "Silk",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Table",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Sawmill"],
+    "name": "Reef Toilet",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Reef Wall",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Reef Work Bench",
+    "ingredients": [
+      {
+        "name": "Reef Block",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Reflective Shades",
+    "ingredients": [
+      {
+        "name": "Blindfold",
+        "amount": 1
+      },
+      {
+        "name": "Pocket Mirror",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Alchemy Table", "Placed Bottle"],
     "name": "Regeneration Potion",
     "ingredients": [
@@ -25144,6 +27712,60 @@
       {
         "name": "Any Iron Bar",
         "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Repaired Life Crystal",
+    "ingredients": [
+      {
+        "name": "Life Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Repaired Life Crystal",
+    "ingredients": [
+      {
+        "name": "Life Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Repaired Mana Crystal",
+    "ingredients": [
+      {
+        "name": "Mana Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Repaired Mana Crystal",
+    "ingredients": [
+      {
+        "name": "Mana Crystal",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Resplendent Dessert",
+    "ingredients": [
+      {
+        "name": "Regal Delicacy",
+        "amount": 1
+      },
+      {
+        "name": "Royal Delight",
+        "amount": 1
       }
     ]
   },
@@ -25890,17 +28512,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Ruby Stone Block",
-    "ingredients": [
-      {
-        "name": "Ruby Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Ruby Stone Block",
     "ingredients": [
       {
@@ -25925,6 +28537,64 @@
     "ingredients": [
       {
         "name": "Ruby Stone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Salamander Banner",
+    "ingredients": [
+      {
+        "name": "Crawdad Banner",
+        "amount": 1
+      },
+      {
+        "name": "Giant Shelly Banner",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Loom"],
+    "name": "Salamander Banner",
+    "ingredients": [
+      {
+        "name": "Crawdad Banner",
+        "amount": 1
+      },
+      {
+        "name": "Giant Shelly Banner",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Sand Block",
+    "ingredients": [
+      {
+        "name": "Crimsand Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Sand Block",
+    "ingredients": [
+      {
+        "name": "Ebonsand Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Sand Block",
+    "ingredients": [
+      {
+        "name": "Pearlsand Block",
         "amount": 1
       }
     ]
@@ -26006,17 +28676,51 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
     "name": "Sandstone Block",
     "ingredients": [
       {
-        "name": "Sandstone Wall",
-        "amount": 4
+        "name": "Crimsandstone Block",
+        "amount": 1
       }
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Sandstone Block",
+    "ingredients": [
+      {
+        "name": "Ebonsandstone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Sandstone Block",
+    "ingredients": [
+      {
+        "name": "Pearlsandstone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Solidifier"],
+    "name": "Sandstone Block",
+    "ingredients": [
+      {
+        "name": "Sand Block",
+        "amount": 1
+      },
+      {
+        "name": "Stone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
     "name": "Sandstone Block",
     "ingredients": [
       {
@@ -26346,6 +29050,20 @@
     ]
   },
   {
+    "workbench": ["Crystal Ball"],
+    "name": "Sandstorm in a Bottle",
+    "ingredients": [
+      {
+        "name": "Cloud in a Bottle",
+        "amount": 1
+      },
+      {
+        "name": "Forbidden Fragment",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Sapphire Bunny Cage",
     "ingredients": [
@@ -26526,17 +29244,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Sapphire Stone Block",
-    "ingredients": [
-      {
-        "name": "Sapphire Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Sapphire Stone Block",
     "ingredients": [
       {
@@ -26643,6 +29351,20 @@
       },
       {
         "name": "Sturdy Fossil",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Scarlet Macaw Cage",
+    "ingredients": [
+      {
+        "name": "Scarlet Macaw",
+        "amount": 1
+      },
+      {
+        "name": "Terrarium",
         "amount": 1
       }
     ]
@@ -27286,6 +30008,62 @@
     ]
   },
   {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Shadow Candle",
+    "ingredients": [
+      {
+        "name": "Crimtane Bar",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Shadow Candle",
+    "ingredients": [
+      {
+        "name": "Crimtane Bar",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Shadow Candle",
+    "ingredients": [
+      {
+        "name": "Demonite Bar",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Work Bench"],
+    "name": "Shadow Candle",
+    "ingredients": [
+      {
+        "name": "Demonite Bar",
+        "amount": 3
+      },
+      {
+        "name": "Torch",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Shadow Greaves",
     "ingredients": [
@@ -27314,6 +30092,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Shadow Scale",
+    "ingredients": [
+      {
+        "name": "Tissue Sample",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Shadow Scalemail",
     "ingredients": [
@@ -27324,6 +30112,20 @@
       {
         "name": "Shadow Scale",
         "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Sharanga",
+    "ingredients": [
+      {
+        "name": "Hellstone Bar",
+        "amount": 10
+      },
+      {
+        "name": "Molten Fury",
+        "amount": 2
       }
     ]
   },
@@ -27397,6 +30199,24 @@
     "ingredients": [
       {
         "name": "Tulip Shell",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Shellphone",
+    "ingredients": [
+      {
+        "name": "Cell Phone",
+        "amount": 1
+      },
+      {
+        "name": "Demon Conch",
+        "amount": 1
+      },
+      {
+        "name": "Magic Conch",
         "amount": 1
       }
     ]
@@ -27517,7 +30337,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 15
+        "amount": 25
       }
     ]
   },
@@ -27578,6 +30398,16 @@
       {
         "name": "Silk Rope",
         "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Silly Green Balloon",
+    "ingredients": [
+      {
+        "name": "Balloon Platform",
+        "amount": 2
       }
     ]
   },
@@ -27674,6 +30504,16 @@
     ]
   },
   {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Silver Bar",
+    "ingredients": [
+      {
+        "name": "Tungsten Bar",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Silver Bar",
     "ingredients": [
@@ -27703,7 +30543,7 @@
       },
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       }
     ]
   },
@@ -27830,6 +30670,16 @@
       {
         "name": "Silver Bar",
         "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Silver Ore",
+    "ingredients": [
+      {
+        "name": "Tungsten Ore",
+        "amount": 1
       }
     ]
   },
@@ -28814,6 +31664,24 @@
     ]
   },
   {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Snapthorn",
+    "ingredients": [
+      {
+        "name": "Jungle Spores",
+        "amount": 12
+      },
+      {
+        "name": "Stinger",
+        "amount": 15
+      },
+      {
+        "name": "Vine",
+        "amount": 3
+      }
+    ]
+  },
+  {
     "workbench": ["Tinkerer's Workshop"],
     "name": "Sniper Scope",
     "ingredients": [
@@ -28828,17 +31696,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Snow Block",
-    "ingredients": [
-      {
-        "name": "Snow Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Snow Block",
     "ingredients": [
       {
@@ -29556,6 +32414,24 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Sparkly Wings",
+    "ingredients": [
+      {
+        "name": "Feather",
+        "amount": 10
+      },
+      {
+        "name": "Soul of Blight",
+        "amount": 10
+      },
+      {
+        "name": "Soul of Flight",
+        "amount": 15
+      }
+    ]
+  },
+  {
     "workbench": ["Sawmill"],
     "name": "Spear Rack",
     "ingredients": [
@@ -29740,6 +32616,20 @@
       {
         "name": "Spectre Bar",
         "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Spelunker Flare",
+    "ingredients": [
+      {
+        "name": "Flare",
+        "amount": 1
+      },
+      {
+        "name": "Spelunker Glowstick",
+        "amount": 1
       }
     ]
   },
@@ -30607,6 +33497,26 @@
       },
       {
         "name": "Minishark",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Star Royale Brick",
+    "ingredients": [
+      {
+        "name": "Star Royale Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Star Royale Brick Wall",
+    "ingredients": [
+      {
+        "name": "Star Royale Brick",
         "amount": 1
       }
     ]
@@ -31494,11 +34404,25 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Heavy Work Bench"],
-    "name": "Stone Accent Slab",
+    "workbench": ["Work Bench"],
+    "name": "Stinkbug Blocker",
     "ingredients": [
       {
-        "name": "Stone Block",
+        "name": "Stinkbug",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Stinkbug Cage",
+    "ingredients": [
+      {
+        "name": "Stinkbug",
+        "amount": 1
+      },
+      {
+        "name": "Terrarium",
         "amount": 1
       }
     ]
@@ -31514,7 +34438,47 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Stone Accent Slab",
+    "ingredients": [
+      {
+        "name": "Stone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Stone Block",
+    "ingredients": [
+      {
+        "name": "Crimstone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Stone Block",
+    "ingredients": [
+      {
+        "name": "Ebonstone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Chlorophyte Extractinator"],
+    "name": "Stone Block",
+    "ingredients": [
+      {
+        "name": "Pearlstone Block",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
     "name": "Stone Block",
     "ingredients": [
       {
@@ -31524,17 +34488,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Craggy Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Stone Block",
     "ingredients": [
       {
@@ -31544,17 +34498,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Fractured Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Stone Block",
     "ingredients": [
       {
@@ -31564,17 +34508,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Mottled Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Stone Block",
     "ingredients": [
       {
@@ -31584,51 +34518,11 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Old Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Stone Block",
     "ingredients": [
       {
         "name": "Stalactite Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Stalactite Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Worn Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Stone Block",
-    "ingredients": [
-      {
-        "name": "Worn Stone Wall",
         "amount": 4
       }
     ]
@@ -31639,6 +34533,16 @@
     "ingredients": [
       {
         "name": "Stone Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Stone Block",
+    "ingredients": [
+      {
+        "name": "Worn Stone Wall",
         "amount": 4
       }
     ]
@@ -31922,6 +34826,32 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Suspicious Looking Skull",
+    "ingredients": [
+      {
+        "name": "Adamantite BarTitanium Bar",
+        "amount": 10
+      },
+      {
+        "name": "Mechanical Eye",
+        "amount": 2
+      },
+      {
+        "name": "Mechanical Skull",
+        "amount": 1
+      },
+      {
+        "name": "Soul of Light",
+        "amount": 5
+      },
+      {
+        "name": "Soul of Night",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Tinkerer's Workshop"],
     "name": "Sweetheart Necklace",
     "ingredients": [
@@ -31964,6 +34894,20 @@
       {
         "name": "Any Wood",
         "amount": 12
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "TNT Barrel",
+    "ingredients": [
+      {
+        "name": "Barrel",
+        "amount": 1
+      },
+      {
+        "name": "Dynamite",
+        "amount": 3
       }
     ]
   },
@@ -32124,10 +35068,6 @@
     "name": "Teleportation Potion",
     "ingredients": [
       {
-        "name": "Blinkroot",
-        "amount": 1
-      },
-      {
         "name": "Bottled Water",
         "amount": 1
       },
@@ -32165,6 +35105,20 @@
       },
       {
         "name": "True Night's Edge",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Terra Fart Kart",
+    "ingredients": [
+      {
+        "name": "Fart Kart",
+        "amount": 1
+      },
+      {
+        "name": "Terra Toilet",
         "amount": 1
       }
     ]
@@ -32230,11 +35184,11 @@
         "amount": 1
       },
       {
-        "name": "Multicolor Wrench",
+        "name": "Mechanical Ruler",
         "amount": 1
       },
       {
-        "name": "Ruler",
+        "name": "Multicolor Wrench",
         "amount": 1
       },
       {
@@ -32319,14 +35273,6 @@
       },
       {
         "name": "Deathweed",
-        "amount": 1
-      },
-      {
-        "name": "Stinger",
-        "amount": 1
-      },
-      {
-        "name": "Worm Tooth",
         "amount": 1
       }
     ]
@@ -32472,12 +35418,22 @@
     ]
   },
   {
+    "workbench": ["Bone Welder"],
+    "name": "Tin Brick",
+    "ingredients": [
+      {
+        "name": "Metal Shelf",
+        "amount": 2
+      }
+    ]
+  },
+  {
     "workbench": ["Furnace"],
     "name": "Tin Brick",
     "ingredients": [
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       },
       {
         "name": "Tin Ore",
@@ -32597,7 +35553,7 @@
     "ingredients": [
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       },
       {
         "name": "Tin Ore",
@@ -32821,7 +35777,7 @@
     "ingredients": [
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       },
       {
         "name": "Titanium Ore",
@@ -32850,12 +35806,48 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Tizona",
+    "ingredients": [
+      {
+        "name": "Adamantite BarTitanium Bar",
+        "amount": 15
+      },
+      {
+        "name": "Excalibur",
+        "amount": 1
+      },
+      {
+        "name": "Soul of Blight",
+        "amount": 15
+      }
+    ]
+  },
+  {
     "workbench": ["Iron", "Lead Anvil"],
     "name": "Toilet",
     "ingredients": [
       {
         "name": "Any Iron Bar",
         "amount": 6
+      }
+    ]
+  },
+  {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Tonbogiri",
+    "ingredients": [
+      {
+        "name": "Adamantite BarTitanium Bar",
+        "amount": 15
+      },
+      {
+        "name": "Gungnir",
+        "amount": 1
+      },
+      {
+        "name": "Soul of Blight",
+        "amount": 15
       }
     ]
   },
@@ -33040,17 +36032,7 @@
     ]
   },
   {
-    "workbench": ["Ecto Mist", "Work Bench"],
-    "name": "Topaz Stone Block",
-    "ingredients": [
-      {
-        "name": "Topaz Stone Wall",
-        "amount": 4
-      }
-    ]
-  },
-  {
-    "workbench": ["Ecto Mist", "Work Bench"],
+    "workbench": ["Work Bench"],
     "name": "Topaz Stone Block",
     "ingredients": [
       {
@@ -33094,6 +36076,48 @@
     ]
   },
   {
+    "workbench": ["By Hand"],
+    "name": "Toucan Cage",
+    "ingredients": [
+      {
+        "name": "Terrarium",
+        "amount": 1
+      },
+      {
+        "name": "Toucan",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Toucan Statue",
+    "ingredients": [
+      {
+        "name": "Stone Block",
+        "amount": 50
+      },
+      {
+        "name": "Toucan",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "workbench": ["Ecto Mist", "Heavy Work Bench"],
+    "name": "Toucan Statue",
+    "ingredients": [
+      {
+        "name": "Stone Block",
+        "amount": 50
+      },
+      {
+        "name": "Toucan",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Work Bench"],
     "name": "Trap Door",
     "ingredients": [
@@ -33104,6 +36128,34 @@
       {
         "name": "Any Wood",
         "amount": 8
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Trapped Ash Wood Chest",
+    "ingredients": [
+      {
+        "name": "Ash Wood Chest",
+        "amount": 1
+      },
+      {
+        "name": "Wire",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
+    "name": "Trapped Balloon Chest",
+    "ingredients": [
+      {
+        "name": "Balloon Chest",
+        "amount": 1
+      },
+      {
+        "name": "Wire",
+        "amount": 10
       }
     ]
   },
@@ -33641,6 +36693,20 @@
   },
   {
     "workbench": ["Heavy Work Bench"],
+    "name": "Trapped Reef Chest",
+    "ingredients": [
+      {
+        "name": "Reef Chest",
+        "amount": 1
+      },
+      {
+        "name": "Wire",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "workbench": ["Heavy Work Bench"],
     "name": "Trapped Rich Mahogany Chest",
     "ingredients": [
       {
@@ -33860,6 +36926,24 @@
     ]
   },
   {
+    "workbench": ["Work Bench"],
+    "name": "Trimarang",
+    "ingredients": [
+      {
+        "name": "Enchanted Boomerang",
+        "amount": 1
+      },
+      {
+        "name": "Ice Boomerang",
+        "amount": 1
+      },
+      {
+        "name": "Shroomerang",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Cauldron", "Cooking Pot"],
     "name": "Tropical Smoothie",
     "ingredients": [
@@ -33967,7 +37051,7 @@
     "ingredients": [
       {
         "name": "Stone Block",
-        "amount": 1
+        "amount": 5
       },
       {
         "name": "Tungsten Ore",
@@ -34232,6 +37316,24 @@
     ]
   },
   {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Ultra Absorbant Sponge",
+    "ingredients": [
+      {
+        "name": "Honey Absorbant Sponge",
+        "amount": 1
+      },
+      {
+        "name": "Lava Absorbant Sponge",
+        "amount": 1
+      },
+      {
+        "name": "Super Absorbant Sponge",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["By Hand"],
     "name": "Ultrabright Campfire",
     "ingredients": [
@@ -34270,6 +37372,20 @@
       {
         "name": "Ulysses Butterfly",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Unholy Arrow",
+    "ingredients": [
+      {
+        "name": "Vertebra",
+        "amount": 1
+      },
+      {
+        "name": "Wooden Arrow",
+        "amount": 5
       }
     ]
   },
@@ -34330,6 +37446,20 @@
       {
         "name": "Vial of Venom",
         "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Venom Dart Trap",
+    "ingredients": [
+      {
+        "name": "Dart Trap",
+        "amount": 1
+      },
+      {
+        "name": "Spider Fang",
+        "amount": 2
       }
     ]
   },
@@ -34568,6 +37698,16 @@
       {
         "name": "Tissue Sample",
         "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["Iron", "Lead Anvil"],
+    "name": "Volcano",
+    "ingredients": [
+      {
+        "name": "Hellstone Bar",
+        "amount": 20
       }
     ]
   },
@@ -35040,6 +38180,38 @@
     ]
   },
   {
+    "workbench": ["Mythril Anvil", "Orichalcum Anvil"],
+    "name": "Vulcan Repeater",
+    "ingredients": [
+      {
+        "name": "Adamantite BarTitanium Bar",
+        "amount": 15
+      },
+      {
+        "name": "Hallowed Repeater",
+        "amount": 1
+      },
+      {
+        "name": "Soul of Blight",
+        "amount": 15
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Wand of Frosting",
+    "ingredients": [
+      {
+        "name": "Ice Torch",
+        "amount": 99
+      },
+      {
+        "name": "Wand of Sparking",
+        "amount": 1
+      }
+    ]
+  },
+  {
     "workbench": ["Loom"],
     "name": "Wandering Geta",
     "ingredients": [
@@ -35345,7 +38517,7 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "White Phaseblade",
@@ -35394,6 +38566,26 @@
       {
         "name": "Any Wood",
         "amount": 20
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder"],
+    "name": "Wood",
+    "ingredients": [
+      {
+        "name": "Dungeon Shelf",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder"],
+    "name": "Wood",
+    "ingredients": [
+      {
+        "name": "Wood Shelf",
+        "amount": 2
       }
     ]
   },
@@ -35500,6 +38692,26 @@
   {
     "workbench": ["By Hand"],
     "name": "Wood Platform",
+    "ingredients": [
+      {
+        "name": "Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Wood Shelf",
+    "ingredients": [
+      {
+        "name": "Wood",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Bone Welder", "Ecto Mist"],
+    "name": "Wood Shelf",
     "ingredients": [
       {
         "name": "Wood",
@@ -35715,7 +38927,7 @@
       },
       {
         "name": "Bottled Water",
-        "amount": 1
+        "amount": 3
       },
       {
         "name": "Specular Fish",
@@ -35782,12 +38994,74 @@
     ]
   },
   {
+    "workbench": ["Furnace"],
+    "name": "Xenon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Clay Block",
+        "amount": 10
+      },
+      {
+        "name": "Xenon Moss",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Xenon Moss Brick",
+    "ingredients": [
+      {
+        "name": "Xenon Moss Brick Wall",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "workbench": ["Work Bench"],
+    "name": "Xenon Moss Brick Wall",
+    "ingredients": [
+      {
+        "name": "Xenon Moss Brick",
+        "amount": 1
+      }
+    ]
+  },
+  {
+    "workbench": ["Tinkerer's Workshop"],
+    "name": "Xenon Moss Fishing Bobber",
+    "ingredients": [
+      {
+        "name": "Glowing Fishing Bobber",
+        "amount": 1
+      },
+      {
+        "name": "Xenon Moss",
+        "amount": 5
+      }
+    ]
+  },
+  {
     "workbench": ["Loom"],
     "name": "Yellow Banner",
     "ingredients": [
       {
         "name": "Silk",
         "amount": 3
+      }
+    ]
+  },
+  {
+    "workbench": ["By Hand"],
+    "name": "Yellow Cockatiel Cage",
+    "ingredients": [
+      {
+        "name": "Terrarium",
+        "amount": 1
+      },
+      {
+        "name": "Yellow Cockatiel",
+        "amount": 1
       }
     ]
   },
@@ -35881,7 +39155,7 @@
     "ingredients": [
       {
         "name": "Crystal Shard",
-        "amount": 50
+        "amount": 25
       },
       {
         "name": "Yellow Phaseblade",

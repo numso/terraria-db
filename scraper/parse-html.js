@@ -22,6 +22,23 @@ async function main () {
   const htmls = await Promise.all(promises)
   const data = htmls.flatMap(parse)
 
+  data.forEach(a => {
+    a.workbench.sort((a, b) => (a < b ? -1 : 1))
+    a.ingredients.sort((a, b) => (a.name < b.name ? -1 : 1))
+  })
+  
+  data.sort((a, b) => {
+    if (a.name !== b.name) return a.name < b.name ? -1 : 1
+  
+    if (a.workbench.join(' ') !== b.workbench.join(' ')) {
+      return a.workbench.join(' ') < b.workbench.join(' ') ? -1 : 1
+    }
+  
+    return a.ingredients.map(i => i.name).join(' ') < b.ingredients.map(i => i.name).join(' ')
+      ? -1
+      : 1
+  })
+
   await fs.writeFile(
     path.join(DATA_DIR, 'recipes.json'),
     JSON.stringify(data, null, 2)

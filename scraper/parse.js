@@ -1,24 +1,16 @@
 const cheerio = require('cheerio')
 
 function isDesktopVersion ($, el) {
-  const consoles = $('td.result .eico', el).attr('title')
-  const consoles2 = $('td.result a:not(:first-child)', el)
+  const consoles = $('td.result .version-note > a', el)
     .map((i, el) => $(el).attr('title'))
     .toArray()
-
-  if (consoles && consoles2.length) {
-    throw new Error('Unexpected double console text')
-  }
-
-  if (consoles) return consoles.includes('Desktop')
-  if (!consoles2.length) return true
-  return consoles2.includes('Desktop version')
+  return consoles.includes('PC version') || consoles.length === 0
 }
 
 module.exports = html => {
   const $ = cheerio.load(html, null, false)
 
-  const recipes = $('table.crafts')
+  const recipes = $('table.recipes')
     .map((i, el) => {
       const workbench = $('caption a', el)
         .map((i, el) => $(el).text())
@@ -38,8 +30,7 @@ module.exports = html => {
 
           const ingredients = $('td.ingredients li', el)
             .map((i, el) => {
-              let amount = $('.note-text', el).text() || '(1)'
-              amount = +amount.substring(1, amount.length - 1)
+              let amount = +($('.am', el).text() || '1')
               return { name: $('a', el).text(), amount }
             })
             .toArray()

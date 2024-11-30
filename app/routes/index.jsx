@@ -64,6 +64,10 @@ export default function Index () {
         className='absolute right-0 top-0 opacity-0 hover:opacity-100'
         onClick={() => {
           setSelected([
+            newEntry('Zenith'),
+            newEntry('Shellphone'),
+            newEntry('Ankh Shield'),
+
             newEntry('Celestial Shell'),
             newEntry('Frog Gear'),
             newEntry('Arctic Diving Gear'),
@@ -74,11 +78,7 @@ export default function Index () {
 
             newEntry('Terraspark Boots'),
             newEntry('Celestial Cuffs'),
-            newEntry('Lavaproof Tackle Bag'),
-
-            newEntry('Zenith'),
-            newEntry('Shellphone'),
-            newEntry('Ankh Shield')
+            newEntry('Lavaproof Tackle Bag')
           ])
         }}
       >
@@ -109,7 +109,7 @@ export default function Index () {
           </ul>
         )}
       </div>
-      <ul className='pl-8'>
+      <ul className='mx-8 columns-3 gap-4'>
         {selected.map((item, i) => (
           <Item
             key={item.id}
@@ -165,7 +165,7 @@ function Item ({
     <li
       className={clsx('list-disc', {
         'text-gray-300 line-through': completed,
-        'border-emerald-400 relative m-3 inline-block border-2 p-4 align-top':
+        'border-emerald-400 relative mb-4 inline-block w-full border-2 p-4 align-top':
           remove
       })}
     >
